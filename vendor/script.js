@@ -9,7 +9,7 @@ function countDown() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.querySelector(".countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.querySelector(".countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
 if (countDate > new Date().getTime()) {
