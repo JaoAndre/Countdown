@@ -12,4 +12,13 @@ function countDown() {
     document.querySelector('.countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
-setInterval(countDown, 1000);
+function verifyCountDown() {
+    if (new Date().getTime() > countDate) {
+        document.querySelector('.countdown').innerHTML = 'Happy New Year!';
+    } else {
+        countDown();
+        setTimeout(verifyCountDown, 1000);
+    }
+}
+
+verifyCountDown();
