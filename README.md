@@ -1,4 +1,4 @@
-# 📕 Countdown
+# ⌛ Countdown
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/JaoAndre/Countdown?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/JaoAndre/Countdown?style=for-the-badge)
