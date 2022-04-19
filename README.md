@@ -6,13 +6,6 @@
 
 ![Countdown](https://user-images.githubusercontent.com/59805284/146975647-8f62aeb9-c6c4-4e85-a99f-3e839b8f5be2.png)
 
-## 🔩 Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Animações
-- [x] Responsividade
-
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/JaoAndre/Countdown/blob/main/LICENSE) para mais detalhes.
